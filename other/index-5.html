@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Pure CSS3 Slider </title>
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/slider-simp.css">
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <a href="../index.html"><img src="../img/PNG-White.png"></a>
+      </div>
+      <nav>
+        <li> <a href="https://twitter.com/BenSassiAladin" target="_blank">Twitter</a></li>
+        <li> <a href="https://tn.linkedin.com/in/aladinbensassi" target="_blank">LinkedIn</a> </li>
+        <select onchange="if (this.value) window.location.href=this.value">
+          <option value="../index.html"> Default </option>
+          <option value="index-2.html"> Left to Right </option>
+          <option value="index-3.html"> Top to Bottom </option>
+          <option value="index-4.html" selected> Bottom to Top </option>
+          <option value="index-5.html" selected> light </option>
+        </select>
+      </nav>
+    </header>
+
+    <!-- Slider -->
+    <div id="slider">
+      <div class="slides">
+        <div class="slider">
+          <div class="image">
+            <img src="../img/1.jpg">
+          </div>
+        </div>
+        <div class="slider">
+          <div class="image">
+            <img src="../img/2.jpg">
+          </div>
+        </div>
+        <div class="slider">
+          <div class="image">
+            <img src="../img/3.jpg">
+          </div>
+        </div>
+        <div class="slider">
+          <div class="image">
+            <img src="../img/4.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1> How to use </h1>
+      <h2> Choose the version you want to integrate in your website, then link it through your HTML page </h2>
+      <div class="code">
+        <span>&lt;head></span><br>
+          <div class="space"></div>
+          ... <span><i>&lt;!-- Your stuff --></span></i><br>
+          <div class="space"></div>
+          <span>&lt;link rel="</span>stylesheet<span>" href="</span>style/slider-def.css<span>"></span><br>
+        <span>&lt;/head></span>
+      </div>
+      <h2> Then add this structure to your page </h2>
+      <div class="code">
+        <span>&lt;div id="</span>slider<span>"></span><br>
+        <div class="space"></div>
+        <span>&lt;div class="</span>slides<span>"></span></br><br>
+
+        <div class="space"></div>
+        <div class="space"></div>
+        <span><i>&lt;!-- First slide --></span></i><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>slider<span>"></span></br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>legend<span>">&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>content<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>content-txt<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;h1></span> Your title <span>&lt;/h1></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;h2></span> Your description <span>&lt;/h2></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>images<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;img src="</span>ImagePath/ImageName.jpg<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br><br>
+
+        <div class="space"></div>
+        <div class="space"></div>
+        <span><i>&lt;!-- Second slide --></span></i><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>slider<span>"></span></br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>legend<span>">&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>content<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>content-txt<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;h1></span> Your title <span>&lt;/h1></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;h2></span> Your description <span>&lt;/h2></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>images<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;img src="</span>ImagePath/ImageName.jpg<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br><br>
+
+
+        <div class="space"></div>
+        <div class="space"></div>
+        <span><i>&lt;!-- Third slide --></span></i><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>slider<span>"></span></br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>legend<span>">&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>content<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>content-txt<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;h1></span> Your title <span>&lt;/h1></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;h2></span> Your description <span>&lt;/h2></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>images<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;img src="</span>ImagePath/ImageName.jpg<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br><br>
+
+        <div class="space"></div>
+        <div class="space"></div>
+        <span><i>&lt;!-- Fourth slide --></span></i><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>slider<span>"></span></br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>legend<span>">&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>content<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>content-txt<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;h1></span> Your title <span>&lt;/h1></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;h2></span> Your description <span>&lt;/h2></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;div class="</span>images<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;img src="</span>ImagePath/ImageName.jpg<span>"></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <div class="space"></div>
+        <div class="space"></div>
+        <span>&lt;/div></span><br><br>
+        <div class="space"></div>
+        <span>&lt;/div></span><br>
+        <span>&lt;/div></span>
+      </div>
+      <h2> Finally add the images and text content and enjoy </h2>
+      <br>
+      <h1> CSS files index </h1>
+      <h3> slider-def.css : Default </h3>
+      <h3> slider-ltr.css : Left to right </h3>
+      <h3> slider-ttb.css : Top to bottom </h3>
+      <h3> slider-btt.css : Bottom to top </h3>
+      <h3> slider-simp.css : Light </h3>
+    </div>
+
+    <footer>
+      <h1> Opensource your work, knowledge is free </h1>
+    </footer>
+  </body>
+</html>
