@@ -12,14 +12,14 @@ slider-btt.css : Bottom to top
 slider-simp.css : Light
 
 Example of use
-
+```html
 <head> 
   ... <!-- Your stuff --> 
   <link rel="stylesheet" href="style/slider-def.css"> 
 </head>
-
+```
 And the only thing rest is adding the HTML
-
+```html
 <div id="slider">
    <div class="slides">
       <!-- First slide --> 
@@ -76,3 +76,4 @@ And the only thing rest is adding the HTML
       </div>
    </div>
 </div>
+```
