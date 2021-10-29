@@ -11,7 +11,7 @@ slider-ttb.css : Top to bottom
 slider-btt.css : Bottom to top
 slider-simp.css : Light
 
-Example of use
+Example of Use 
 ```html
 <head> 
   ... <!-- Your stuff --> 
